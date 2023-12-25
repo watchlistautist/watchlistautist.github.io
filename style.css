@@ -1,0 +1,20 @@
+  .news-ticker {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: black;
+        color: white;
+        overflow: hidden;
+      }
+      
+      @keyframes ticker {
+        0% { transform: translateX(100%); }
+        100% { transform: translateX(-100%); }
+      }
+      
+      .news-ticker p {
+        display: inline-block;
+        white-space: nowrap;
+        animation: ticker 10s linear infinite;
+      }
