@@ -19,6 +19,15 @@
         animation: ticker 10s linear infinite;
       }
       
-    body {
-      background-color: rbg(0,255,0,0.2);
+body {
+      background-color: rgba(0, 255, 0, 0.15);
+  
+    }
+
+    #cat {
+      position: fixed;
+      left: 50%;
+      top: 50%;
+      
+      
     }
